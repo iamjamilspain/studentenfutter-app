@@ -46,8 +46,7 @@
   </ios>
   <android 
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <manifest android:installLocation="preferExternal" android:versionCode="26" android:versionName="4.0.2" package="de.ncn.mensaapp">
-      <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26"/>
+    <manifest android:installLocation="preferExternal" android:versionCode="27" android:versionName="4.1.0" package="de.ncn.mensaapp">
       <uses-permission android:name="android.permission.INTERNET"/>
       <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
       <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
@@ -73,7 +72,7 @@
     <target device="iphone">true</target>
     <target device="mobileweb">false</target>
   </deployment-targets>
-  <sdk-version>7.1.1.GA</sdk-version>
+  <sdk-version>7.3.0.v20180807095741</sdk-version>
   <plugins>
     <plugin version="1.0">ti.alloy</plugin>
   </plugins>
