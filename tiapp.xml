@@ -3,7 +3,7 @@
   xmlns:ti="http://ti.appcelerator.org">
   <id>de.ncn.mensaapp</id>
   <name>Mensa</name>
-  <version>5.2.2.1</version>
+  <version>6.0.0.0</version>
   <publisher>Hans Knoechel</publisher>
   <url>http://studentenfutter-os.de</url>
   <description>not specified</description>
@@ -20,7 +20,6 @@
     <default-background-color>#3fc3ea</default-background-color>
     <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
     <use-app-thinning>true</use-app-thinning>
-    <use-new-build-system>true</use-new-build-system>
     <team-id>YOUR_TEAM_ID</team-id>
     <plist>
       <dict>
@@ -67,12 +66,11 @@
     <module platform="android" version="4.0.0">ti.imagefactory</module>
   </modules>
   <deployment-targets>
-    <target device="android">false</target>
+    <target device="android">true</target>
     <target device="ipad">true</target>
     <target device="iphone">true</target>
-    <target device="mobileweb">false</target>
   </deployment-targets>
-  <sdk-version>7.3.0.v20180807095741</sdk-version>
+  <sdk-version>8.0.0.v20190117115226</sdk-version>
   <plugins>
     <plugin version="1.0">ti.alloy</plugin>
   </plugins>
